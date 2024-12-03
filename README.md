@@ -1,6 +1,6 @@
 # Website Fingerprinting Classification
 
-## Introduction
+## 🌐 Introduction
 
 This project aims to perform a **Website Fingerprinting Attack** by analyzing packet data. Features are extracted from the packet data, and their importance is calculated to identify the most accurate model for classification.
 
@@ -9,7 +9,7 @@ This project aims to perform a **Website Fingerprinting Attack** by analyzing pa
   - Binary Classification: Websites are classified as either monitored or unmonitored.
   - Multi-class Classification: Monitored websites are assigned labels from 0 to 94, while unmonitored websites are assigned the label -1.
 
-## How to Run
+## 🖥️ How to Run
 
 ### 1. Closed-World Experiment
 
@@ -25,6 +25,10 @@ This project aims to perform a **Website Fingerprinting Attack** by analyzing pa
 3. Follow the notebook's instructions to execute each cell sequentially.
 4. Check the accuracy and feature importance results.
 
+<br>
+
+---
+
 😎 From here, the main experiments of this project begin!
 
 ### 2. Open-world Experiment : Binary Classification
@@ -36,9 +40,9 @@ This project aims to perform a **Website Fingerprinting Attack** by analyzing pa
 2. In **"1. Data Preprocessing"**, change the path for loading the pickle file to the actual path where the 'mon_standard.pkl' and 'unmon_standard10_3000.pkl' files are located.
 3. Follow the notebook's instructions to execute each cell sequentially.
 4. Check the results of binary classification.  
-   In **"4. Result"**, the results can be interpreted by examining the following:  
-    - Number of Samples Classified (monitored/unmonitored)  
-    - Confusion Matrix - Feature Importance - Counts and Correct Predictions per Class - Precision-Recall Curve - ROC Curve
+   In **"4. Result"**, the results can be interpreted by examining the following:
+   - Number of Samples Classified (monitored/unmonitored)
+   - Confusion Matrix - Feature Importance - Counts and Correct Predictions per Class - Precision-Recall Curve - ROC Curve
 
 ### 3. Open-world Experiment : Multi-class Classification
 
