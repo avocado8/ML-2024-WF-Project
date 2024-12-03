@@ -42,7 +42,11 @@ This project aims to perform a **Website Fingerprinting Attack** by analyzing pa
 4. Check the results of binary classification.  
    In **"4. Result"**, the results can be interpreted by examining the following:
    - Number of Samples Classified (monitored/unmonitored)
-   - Confusion Matrix - Feature Importance - Counts and Correct Predictions per Class - Precision-Recall Curve - ROC Curve
+   - Confusion Matrix
+   - Feature Importance
+   - Counts and Correct Predictions per Class
+   - Precision-Recall Curve
+   - ROC Curve
 
 ### 3. Open-world Experiment : Multi-class Classification
 
@@ -54,4 +58,7 @@ This project aims to perform a **Website Fingerprinting Attack** by analyzing pa
 3. In **"2. Multi-class classification on the unmonitored dataset - 1. Data Preprocessing"**, change the path for loading the pickle file to the actual path where the 'unmon_standard10_3000.pkl' file is located.
 4. Follow the notebook's instructions to execute each cell sequentially.
 5. Check the results of multi-class classification.  
-   In **"3. Final Result"**, you can check the following results: - A dataframe of monitored data classified with labels ranging from 0 to 94 - A dataframe of unmonitored data classified with the label -1 - The count of predicted classes
+   In **"3. Final Result"**, you can check the following results:
+   - A dataframe of monitored data classified with labels ranging from 0 to 94
+   - A dataframe of unmonitored data classified with the label -1
+   - The count of predicted classes
