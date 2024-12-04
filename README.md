@@ -1,6 +1,6 @@
 # Website Fingerprinting Classification
 
-Team Meowchine Lerning🐈  
+Team Meowchine Learning🐈  
 Gahyeon Kwon, YeongHyeong Khil, Hyeonsu Kim, Yukyeong An, Sion Kim
 
 ## 🌐 Introduction
